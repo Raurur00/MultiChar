@@ -1,0 +1,17 @@
+name: MultiChar
+author: TortugaGris
+version: 1.0
+main: me.tortugagris.nabradia.MultiChar
+desciption: Plugin for changing characters
+
+commands:
+  changeCharacter:
+    description: Use this command to change your character
+    usage: /changeCharacter <number>
+  createCharacter:
+    description: Use this command to create a character
+    usage: /createCharacter <name> <race> <age> <gender>
+  characterList:
+    description: Use this command to list all your characters
+    usage: /characterList
+  
