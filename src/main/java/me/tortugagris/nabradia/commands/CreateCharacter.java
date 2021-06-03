@@ -37,6 +37,8 @@ public class CreateCharacter implements CommandExecutor {
                 playerCharacters.getCharacterArray().add(character);
                 playerCharactersArray.getPlayerCharactersArray().add(playerCharacters);
             }
+
+            //save character in db
             
             player.sendMessage(ChatColor.GREEN + "Personaje Creado");
             return true;

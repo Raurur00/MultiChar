@@ -34,5 +34,9 @@ public class CharacterSheetMapper {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+
+        //Create tables
     }
+    //save character
+    //reconnect
 }
